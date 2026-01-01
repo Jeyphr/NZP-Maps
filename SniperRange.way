@@ -1,0 +1,104 @@
+Waypoint
+{
+origin = '87 551 320'
+id = 0
+special = 
+target = 1
+target2 = 2
+target3 = 6
+target4 = 3
+target5 = 4
+target6 = 5
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '106 364 320'
+id = 1
+special = 
+target = 0
+target2 = 2
+target3 = 6
+target4 = 3
+target5 = 4
+target6 = 5
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '115 220 320'
+id = 2
+special = 
+target = 1
+target2 = 0
+target3 = 6
+target4 = 3
+target5 = 4
+target6 = 5
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '128 58 320'
+id = 3
+special = 
+target = 4
+target2 = 5
+target3 = 6
+target4 = 1
+target5 = 0
+target6 = 2
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '113 -41 320'
+id = 4
+special = 
+target = 5
+target2 = 2
+target3 = 6
+target4 = 1
+target5 = 0
+target6 = 3
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '212 -40 320'
+id = 5
+special = 
+target = 4
+target2 = 3
+target3 = 2
+target4 = 6
+target5 = 1
+target6 = 0
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '221 199 320'
+id = 6
+special = 
+target = 2
+target2 = 1
+target3 = 0
+target4 = 4
+target5 = 5
+target6 = 3
+target7 = 
+target8 = 
+}

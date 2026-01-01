@@ -1,0 +1,409 @@
+sdHLCSG v1.2.0 64-bit (Jul 11 2024)
+seedee's Half-Life Compilation Tools
+Based on code modifications by Sean 'Zoner' Cavanaugh and Vluzacn
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (github.com/seedee/SDHLT/issues)
+-----  BEGIN  sdHLCSG -----
+Command line: "C:\Program Files\J.A.C.K\CompilationTools\sdHLCSG_x64.exe" C:\Users\theje\NZP\nzp\maps\simulacra -wadinclude jtext -wadinclude jwoc -wadinclude jdev -wadinclude jstuf -wadinclude jdepr 
+Arguments: C:\Users\theje\NZP\nzp\maps\simulacra -wadinclude jtext -wadinclude jwoc -wadinclude jdev -wadinclude jstuf -wadinclude jdepr -low 
+Entering C:\Users\theje\NZP\nzp\maps\simulacra.map
+
+Current sdHLCSG Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [      12 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+reset logfile         [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [      on ] [      on ]
+estimate              [     off ] [     off ]
+max texture memory    [ 33554432 ] [ 33554432 ]
+max lighting memory   [ 50331648 ] [ 50331648 ]
+priority              [     Low ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [     off ] [     off ]
+clip hull type        [  simple ] [  simple ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+wad.cfg file          [    None ] [    None ]
+wad.cfg config name   [    None ] [    None ]
+nullfile              [    None ] [    None ]
+nullify trigger       [      on ] [      on ]
+min surface area      [   0.000 ] [   0.000 ]
+brush union threshold [   0.000 ] [   0.000 ]
+map scaling           [    None ] [    None ]
+light name optimize   [      on ] [      on ]
+convert game_text     [      on ] [      on ]
+world extent          [   65536 ] [   65536 ]
+
+Loading mapfile wad configuration by default
+Wadinclude list
+---------------
+sdhlt.wad
+jtext
+jwoc
+jdev
+jstuf
+jdepr
+---------------
+
+
+CreateBrush:
+ (0.16 seconds)
+CSGBrush:
+ (0.62 seconds)
+
+No wad files used by the map
+Additional wad files included
+-----------------------------
+[JTEXT.wad] 57/211 textures (81.43%)
+ - /Users/theje/Assets/Jeyphr-s-Wads/Jeyphr's WADS/JTEXT.wad
+[JWOC.wad] 1/248 texture (1.43%)
+ - /Users/theje/Assets/Jeyphr-s-Wads/Jeyphr's WADS/JWOC.wad
+[sdhlt.wad] 3/27 textures (4.29%)
+ - /Users/theje/Assets/Jeyphr-s-Wads/SeeDee's Half Life Tools/sdhlt.wad
+[JSTUF.wad] 1/7 texture (1.43%)
+ - /Users/theje/Assets/Jeyphr-s-Wads/Jeyphr's WADS/JSTUF.wad
+[JDEPR.wad] 8/115 textures (11.43%)
+ - /Users/theje/Assets/Jeyphr-s-Wads/Jeyphr's WADS/JDEPR.wad
+-----------------------------
+
+Texture usage: 1.82/32.00 MB)
+2 redundant named lights optimized.
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models              0/512            0/32768    ( 0.0%)
+planes          15858/32768     317160/655360   (48.4%)
+vertexes            0/65535          0/786420   ( 0.0%)
+nodes               0/32767          0/786408   ( 0.0%)
+texinfos         2709/32767     108360/1310680  ( 8.3%)
+faces               0/65535          0/1310700  ( 0.0%)
+* worldfaces        0/32768          0/0        ( 0.0%)
+clipnodes           0/32767          0/262136   ( 0.0%)
+leaves              0/32760          0/917280   ( 0.0%)
+* worldleaves       0/8192           0/0        ( 0.0%)
+marksurfaces        0/65535          0/131070   ( 0.0%)
+surfedges           0/512000         0/2048000  ( 0.0%)
+edges               0/256000         0/1024000  ( 0.0%)
+texdata          [variable]    1904004/33554432 ( 5.7%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]      42860/2097152  ( 2.0%)
+* AllocBlock        0/64             0/0        ( 0.0%)
+70 textures referenced
+=== Total BSP file data space used: 2372384 bytes ===
+
+No wad files required to run the map
+0.92 seconds elapsed
+
+-----   END   sdHLCSG -----
+
+
+
+sdHLBSP v1.2.0 64-bit (Jul 11 2024)
+seedee's Half-Life Compilation Tools
+Based on code modifications by Sean 'Zoner' Cavanaugh and Vluzacn
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (github.com/seedee/SDHLT/issues)
+-----  BEGIN  sdHLBSP -----
+Command line: "C:\Program Files\J.A.C.K\CompilationTools\sdHLBSP_x64.exe" C:\Users\theje\NZP\nzp\maps\simulacra 
+Arguments: C:\Users\theje\NZP\nzp\maps\simulacra -low 
+
+Current sdHLBSP Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [      12 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [      on ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+priority            [     Low ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+noinsidefill        [     off ] [     off ]
+noopt               [     off ] [     off ]
+no clipnode merging [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+nobrink             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
+remove hull 2       [     off ] [     off ]
+
+
+SolidBSP [hull 0] 500...1000...1500...2000...2500...3000...3278 (0.20 seconds)
+BSP generation successful, writing portal file 'C:\Users\theje\NZP\nzp\maps\simulacra.prt'
+SolidBSP [hull 1] 500...1000...1433 (0.11 seconds)
+SolidBSP [hull 2] 500...1000...1222 (0.09 seconds)
+SolidBSP [hull 3] 500...1000...1500...1575 (0.12 seconds)
+Reduced 5634 clipnodes to 5309
+Reduced 2709 texinfos to 2058
+Reduced 70 texdatas to 67 (1904004 bytes to 1868916)
+Reduced 15858 planes to 3697
+FixBrinks:
+Increased 5309 clipnodes to 5340.
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models             58/512         3712/32768    (11.3%)
+planes           3697/32768      73940/655360   (11.3%)
+vertexes         8485/65535     101820/786420   (12.9%)
+nodes            3807/32767      91368/786408   (11.6%)
+texinfos         2058/32767      82320/1310680  ( 6.3%)
+faces            5332/65535     106640/1310700  ( 8.1%)
+* worldfaces     4754/32768          0/0        (14.5%)
+clipnodes        5340/32767      42720/262136   (16.3%)
+leaves           2564/32760      71792/917280   ( 7.8%)
+* worldleaves    2061/8192           0/0        (25.2%)
+marksurfaces     7830/65535      15660/131070   (11.9%)
+surfedges       24872/512000     99488/2048000  ( 4.9%)
+edges           14232/256000     56928/1024000  ( 5.6%)
+texdata          [variable]    1868916/33554432 ( 5.6%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]      42860/2097152  ( 2.0%)
+* AllocBlock       13/64             0/0        (20.3%)
+67 textures referenced
+=== Total BSP file data space used: 2658164 bytes ===
+
+No wad files required to run the map
+1.47 seconds elapsed
+
+-----   END   sdHLBSP -----
+
+
+
+sdHLVIS v1.2.0 64-bit (Jul 11 2024)
+seedee's Half-Life Compilation Tools
+Based on code modifications by Sean 'Zoner' Cavanaugh and Vluzacn
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (github.com/seedee/SDHLT/issues)
+-----  BEGIN  sdHLVIS -----
+Command line: "C:\Program Files\J.A.C.K\CompilationTools\sdHLVIS_x64.exe" C:\Users\theje\NZP\nzp\maps\simulacra 
+Arguments: C:\Users\theje\NZP\nzp\maps\simulacra -low 
+ 374 portalleafs
+1121 numportals
+
+-= Current sdHLVIS Settings =-
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [      12 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [      on ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+max vis distance    [       0 ] [       0 ]
+priority            [     Low ] [  Normal ]
+
+fast vis            [     off ] [     off ]
+full vis            [     off ] [     off ]
+nofixprt            [     off ] [     off ]
+
+
+BasePortalVis:
+ (0.02 seconds)
+LeafThread:
+ (1.71 seconds)
+average leafs visible: 233
+g_visdatasize:85170  compressed from 17578
+
+Reading portal file 'C:\Users\theje\NZP\nzp\maps\simulacra.prt'
+Reduced 1497 lines to 1123
+Optimization for J.A.C.K. map editor successful, writing portal file 'C:\Users\theje\NZP\nzp\maps\simulacra.prt'
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models             58/512         3712/32768    (11.3%)
+planes           3697/32768      73940/655360   (11.3%)
+vertexes         8485/65535     101820/786420   (12.9%)
+nodes            3807/32767      91368/786408   (11.6%)
+texinfos         2058/32767      82320/1310680  ( 6.3%)
+faces            5332/65535     106640/1310700  ( 8.1%)
+* worldfaces     4754/32768          0/0        (14.5%)
+clipnodes        5340/32767      42720/262136   (16.3%)
+leaves           2564/32760      71792/917280   ( 7.8%)
+* worldleaves    2061/8192           0/0        (25.2%)
+marksurfaces     7830/65535      15660/131070   (11.9%)
+surfedges       24872/512000     99488/2048000  ( 4.9%)
+edges           14232/256000     56928/1024000  ( 5.6%)
+texdata          [variable]    1868916/33554432 ( 5.6%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]      85170/8388608  ( 1.0%)
+entdata          [variable]      42860/2097152  ( 2.0%)
+* AllocBlock       13/64             0/0        (20.3%)
+67 textures referenced
+=== Total BSP file data space used: 2743334 bytes ===
+
+No wad files required to run the map
+1.76 seconds elapsed
+
+-----   END   sdHLVIS -----
+
+
+
+sdHLRAD v1.2.0 64-bit (Jul 11 2024)
+seedee's Half-Life Compilation Tools
+Based on code modifications by Sean 'Zoner' Cavanaugh and Vluzacn
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (github.com/seedee/SDHLT/issues)
+-----  BEGIN  sdHLRAD -----
+Command line: "C:\Program Files\J.A.C.K\CompilationTools\sdHLRAD_x64.exe" C:\Users\theje\NZP\nzp\maps\simulacra 
+Arguments: C:\Users\theje\NZP\nzp\maps\simulacra -low 
+
+-= Current sdHLRAD Settings =-
+Name                | Setting             | Default
+--------------------|---------------------|-------------------------
+threads              [                12 ] [            Varies ]
+verbose              [               off ] [               off ]
+log                  [                on ] [                on ]
+developer            [                 0 ] [                 0 ]
+chart                [                on ] [                on ]
+estimate             [               off ] [               off ]
+max texture memory   [          33554432 ] [          33554432 ]
+max lighting memory  [          50331648 ] [          50331648 ]
+priority             [               Low ] [            Normal ]
+
+fast rad             [               off ] [               off ]
+vismatrix algorithm  [            Sparse ] [            Sparse ]
+pre-25th anniversary [               off ] [               off ]
+oversampling (-extra)[               off ] [               off ]
+bounces              [                 8 ] [                 8 ]
+ambient light        [ 0.000 0.000 0.000 ] [ 0.000 0.000 0.000 ]
+light limit threshold[           255.000 ] [           255.000 ]
+circus mode          [               off ] [               off ]
+
+smoothing threshold  [            50.000 ] [            50.000 ]
+smoothing threshold 2[             0.000 ] [         no change ]
+direct threshold     [            10.000 ] [            10.000 ]
+direct light scale   [             1.000 ] [             1.000 ]
+coring threshold     [             0.010 ] [             0.010 ]
+patch interpolation  [                on ] [                on ]
+
+texscale             [                on ] [                on ]
+patch subdividing    [                on ] [                on ]
+chop value           [            64.000 ] [            64.000 ]
+texchop value        [            32.000 ] [            32.000 ]
+
+global fade          [             1.000 ] [             1.000 ]
+global texlight gap  [             0.000 ] [             0.000 ]
+global light scale   [ 2.000 2.000 2.000 ] [ 2.000 2.000 2.000 ]
+global gamma         [ 0.550 0.550 0.550 ] [ 0.550 0.550 0.550 ]
+global light scale   [             2.000 ] [             2.000 ]
+global sky diffusion [             1.000 ] [             1.000 ]
+
+spread angles        [                on ] [                on ]
+opaque brush models  [                on ] [                on ]
+opaque studio models [                on ] [                on ]
+sky lighting fix     [                on ] [                on ]
+incremental          [               off ] [               off ]
+dump                 [               off ] [               off ]
+
+colour jitter        [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+monochromatic jitter [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+
+custom shadows with bounce light
+                     [               off ] [               off ]
+rgb transfers        [               off ] [               off ]
+minimum final light  [                 0 ] [                 0 ]
+size of transfer     [         1 (16bit) ] [         1 (16bit) ]
+size of rgbtransfer  [         2 (32bit) ] [         2 (32bit) ]
+soft sky             [                on ] [                on ]
+translucent depth    [             2.000 ] [             2.000 ]
+block opaque         [                on ] [                on ]
+ignore textures      [               off ] [               off ]
+reflectivity gamma   [             1.760 ] [             1.760 ]
+reflectivity scale   [             0.700 ] [             0.700 ]
+blur size            [             1.500 ] [             1.500 ]
+no emitter range     [               off ] [               off ]
+wall bleeding fix    [                on ] [                on ]
+
+
+Load Textures:
+67 textures referenced
+Reading texlights from 'C:\Program Files\J.A.C.K\CompilationTools\lights.rad'
+0 texlights parsed (C:\Program Files\J.A.C.K\CompilationTools\lights.rad)
+0 opaque models
+0 opaque faces
+5332 faces
+Create Patches : 14704 base patches
+204858 square feet [29499674.00 square inches]
+48 direct lights and 0 fast direct lights
+6 light styles
+0 opaque studio models
+
+FindFacePositions:
+ (0.36 seconds)
+BuildFacelights:
+ (0.94 seconds)
+BuildVisLeafs:
+ (3.62 seconds)
+visibility matrix   :  12.2 megs
+MakeScales:
+ (2.30 seconds)
+Transfer Lists :    26021362 :    26.02M transfers
+       Indices :    21532044 :    20.53M bytes
+          Data :    52085963 :    49.67M bytes
+Bounce 1 GatherLight:
+ (0.17 seconds)
+Bounce 2 GatherLight:
+ (0.25 seconds)
+Bounce 3 GatherLight:
+ (0.24 seconds)
+Bounce 4 GatherLight:
+ (0.24 seconds)
+Bounce 5 GatherLight:
+ (0.23 seconds)
+Bounce 6 GatherLight:
+ (0.24 seconds)
+Bounce 7 GatherLight:
+ (0.24 seconds)
+Bounce 8 GatherLight:
+ (0.25 seconds)
+CreateTriangulations:
+ (0.03 seconds)
+AddPatchLights:
+ (2.30 seconds)
+FinalLightFace:
+ (0.02 seconds)
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models             58/512         3712/32768    (11.3%)
+planes           3697/32768      73940/655360   (11.3%)
+vertexes         8485/65535     101820/786420   (12.9%)
+nodes            3807/32767      91368/786408   (11.6%)
+texinfos         2058/32767      82320/1310680  ( 6.3%)
+faces            5332/65535     106640/1310700  ( 8.1%)
+* worldfaces     4754/32768          0/0        (14.5%)
+clipnodes        5340/32767      42720/262136   (16.3%)
+leaves           2564/32760      71792/917280   ( 7.8%)
+* worldleaves    2061/8192           0/0        (25.2%)
+marksurfaces     7830/65535      15660/131070   (11.9%)
+surfedges       24872/512000     99488/2048000  ( 4.9%)
+edges           14232/256000     56928/1024000  ( 5.6%)
+texdata          [variable]    1868916/33554432 ( 5.6%)
+lightdata        [variable]    2006919/50331648 ( 4.0%)
+visdata          [variable]      85170/8388608  ( 1.0%)
+entdata          [variable]      42860/2097152  ( 2.0%)
+* AllocBlock       13/64             0/0        (20.3%)
+67 textures referenced
+=== Total BSP file data space used: 4750253 bytes ===
+
+No wad files required to run the map
+11.96 seconds elapsed
+
+-----   END   sdHLRAD -----
+
+
+

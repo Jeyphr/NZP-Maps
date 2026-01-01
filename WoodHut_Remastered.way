@@ -1,0 +1,101 @@
+waypoint
+{
+ id: 0
+ origin: '367.968750 -64.164391 0.031250'
+ targets:
+ [
+  6
+ ]
+}
+
+waypoint
+{
+ id: 1
+ origin: '290.578979 79.968750 0.031250'
+ targets:
+ [
+  6
+ ]
+}
+
+waypoint
+{
+ id: 2
+ origin: '148.613983 -175.968750 0.031250'
+ targets:
+ [
+  7
+  6
+  0
+ ]
+}
+
+waypoint
+{
+ id: 3
+ origin: '20.952879 79.968750 0.031250'
+ targets:
+ [
+  7
+  6
+ ]
+}
+
+waypoint
+{
+ id: 4
+ origin: '-271.968750 -123.709198 0.031250'
+ targets:
+ [
+  8
+ ]
+}
+
+waypoint
+{
+ id: 5
+ origin: '-181.431625 167.968750 0.031250'
+ targets:
+ [
+  8
+ ]
+}
+
+waypoint
+{
+ id: 6
+ origin: '225.790421 -18.492668 0.031250'
+ targets:
+ [
+  0
+  1
+  2
+  7
+  3
+ ]
+}
+
+waypoint
+{
+ id: 7
+ origin: '1.049366 -23.266033 0.031250'
+ targets:
+ [
+  3
+  6
+  2
+  8
+ ]
+}
+
+waypoint
+{
+ id: 8
+ origin: '-150.235413 -30.547060 0.031250'
+ targets:
+ [
+  4
+  5
+  7
+ ]
+}

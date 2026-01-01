@@ -1,0 +1,689 @@
+Waypoint
+{
+origin = '832 -7 32'
+id = 0
+special = 
+target = 4
+target2 = 3
+target3 = 1
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '830 123 32'
+id = 1
+special = 
+target = 2
+target2 = 3
+target3 = 4
+target4 = 0
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '835 253 32'
+id = 2
+special = 
+target = 1
+target2 = 3
+target3 = 
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '674 132 32'
+id = 3
+special = 
+target = 1
+target2 = 0
+target3 = 4
+target4 = 9
+target5 = 2
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '675 -8 32'
+id = 4
+special = 
+target = 5
+target2 = 0
+target3 = 1
+target4 = 3
+target5 = 9
+target6 = 8
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '669 -176 48'
+id = 5
+special = 
+target = 8
+target2 = 6
+target3 = 4
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '670 -319 64'
+id = 6
+special = 
+target = 5
+target2 = 7
+target3 = 23
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '514 -323 64'
+id = 7
+special = 
+target = 6
+target2 = 10
+target3 = 
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '520 -64 32'
+id = 8
+special = 
+target = 4
+target2 = 3
+target3 = 9
+target4 = 5
+target5 = 22
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '539 94 32'
+id = 9
+special = 
+target = 3
+target2 = 4
+target3 = 8
+target4 = 22
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '414 -318 64'
+id = 10
+special = way_1
+target = 7
+target2 = 11
+target3 = 
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '323 -317 64'
+id = 11
+special = 
+target = 10
+target2 = 12
+target3 = 20
+target4 = 37
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '323 -161 48'
+id = 12
+special = 
+target = 13
+target2 = 11
+target3 = 20
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '323 58 32'
+id = 13
+special = 
+target = 14
+target2 = 12
+target3 = 22
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '259 130 32'
+id = 14
+special = 
+target = 15
+target2 = 13
+target3 = 
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '129 125 32'
+id = 15
+special = 
+target = 16
+target2 = 14
+target3 = 
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '-47 125 32'
+id = 16
+special = 
+target = 17
+target2 = 15
+target3 = 
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '-68 32 48'
+id = 17
+special = 
+target = 18
+target2 = 16
+target3 = 
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '-68 -55 64'
+id = 18
+special = 
+target = 19
+target2 = 20
+target3 = 21
+target4 = 17
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '-66 -254 64'
+id = 19
+special = 
+target = 20
+target2 = 21
+target3 = 18
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '129 -255 64'
+id = 20
+special = 
+target = 11
+target2 = 21
+target3 = 18
+target4 = 19
+target5 = 12
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '134 -56 64'
+id = 21
+special = 
+target = 18
+target2 = 19
+target3 = 20
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '414 64 32'
+id = 22
+special = way_2
+target = 13
+target2 = 9
+target3 = 8
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '817 -317 64'
+id = 23
+special = 
+target = 6
+target2 = 24
+target3 = 
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '961 -317 64'
+id = 24
+special = 
+target = 23
+target2 = 25
+target3 = 
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '1026 -399 64'
+id = 25
+special = 
+target = 24
+target2 = 26
+target3 = 
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '1021 -573 64'
+id = 26
+special = 
+target = 25
+target2 = 27
+target3 = 
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '1021 -705 64'
+id = 27
+special = 
+target = 26
+target2 = 28
+target3 = 
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '1023 -832 64'
+id = 28
+special = 
+target = 27
+target2 = 29
+target3 = 61
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '1023 -962 64'
+id = 29
+special = 
+target = 
+target2 = 
+target3 = 
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '881 -830 56'
+id = 61
+special = 
+target = 31
+target2 = 28
+target3 = 
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '652 -831 32'
+id = 31
+special = 
+target = 32
+target2 = 61
+target3 = 42
+target4 = 43
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '652 -997 32'
+id = 32
+special = 
+target = 42
+target2 = 31
+target3 = 56
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '319 -647 45'
+id = 36
+special = 
+target = 44
+target2 = 37
+target3 = 
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '323 -487 64'
+id = 37
+special = 
+target = 36
+target2 = 11
+target3 = 
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '814 -988 32'
+id = 42
+special = 
+target = 32
+target2 = 31
+target3 = 
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '482 -768 32'
+id = 43
+special = 
+target = 44
+target2 = 31
+target3 = 
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '320 -770 32'
+id = 44
+special = 
+target = 60
+target2 = 58
+target3 = 43
+target4 = 36
+target5 = 59
+target6 = 52
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '505 -1036 32'
+id = 56
+special = 
+target = 32
+target2 = 59
+target3 = 
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '152 -819 32'
+id = 60
+special = 
+target = 58
+target2 = 59
+target3 = 44
+target4 = 52
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '154 -1024 32'
+id = 58
+special = 
+target = 60
+target2 = 59
+target3 = 44
+target4 = 52
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '327 -1029 32'
+id = 59
+special = 
+target = 56
+target2 = 58
+target3 = 60
+target4 = 44
+target5 = 52
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '279 -1212 32'
+id = 52
+special = 
+target = 58
+target2 = 53
+target3 = 59
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '276 -1314 32'
+id = 53
+special = 
+target = 52
+target2 = 54
+target3 = 
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '130 -1355 32'
+id = 54
+special = 
+target = 53
+target2 = 55
+target3 = 
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '-40 -1340 32'
+id = 55
+special = 
+target = 54
+target2 = 
+target3 = 
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
