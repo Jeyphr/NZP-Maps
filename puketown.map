@@ -3215,12 +3215,12 @@
 "wayTarget" "way_race"
 "killtarget" "dora_race"
 {
-( 784 -128 48 ) ( 784 -128 -48 ) ( 784 -120 48 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( 880 -120 48 ) ( 880 -120 -48 ) ( 880 -128 48 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( 880 -128 -48 ) ( 784 -128 -48 ) ( 880 -128 48 ) AAATRIGGER [ 1 -0 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( 880 -120 48 ) ( 784 -120 48 ) ( 880 -120 -48 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( 880 -120 -48 ) ( 784 -120 -48 ) ( 880 -128 -48 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
-( 880 -128 48 ) ( 784 -128 48 ) ( 880 -120 48 ) AAATRIGGER [ 1 0 -0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 784 -126 48 ) ( 784 -126 -48 ) ( 784 -122 48 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 880 -122 48 ) ( 880 -122 -48 ) ( 880 -126 48 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 880 -126 -48 ) ( 784 -126 -48 ) ( 880 -126 48 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 880 -122 48 ) ( 784 -122 48 ) ( 880 -122 -48 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 880 -122 -48 ) ( 784 -122 -48 ) ( 880 -126 -48 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 880 -126 48 ) ( 784 -126 48 ) ( 880 -122 48 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
 }
 }
 {
@@ -4115,13 +4115,13 @@
 }
 {
 "classname" "misc_model"
-"model" "models/props/jeyphr/gate2.mdl"
+"model" "models/props/jeyphr/raceGate_static.mdl"
 "month_limiter" "0"
 "gamemode_limiter" "0"
 "angles" "0 90 0"
 "first_frame" "0"
-"last_frame" "20"
-"speed" "0.1"
+"last_frame" "0"
+"speed" "0"
 "targetname" "dora_race"
 "origin" "832 -124 -48"
 }
@@ -4214,4 +4214,12 @@
 "wait" "1"
 "_light" "170 255 255 75"
 "origin" "-47.6963 -48.8826 8"
+}
+{
+"classname" "power_switch"
+"model" "models/machines/hl_scale/power_switch.mdl"
+"oldmodel" "sounds/machines/power.wav"
+"skin" "0"
+"angles" "0 90 0"
+"origin" "1472 -486.87 0"
 }

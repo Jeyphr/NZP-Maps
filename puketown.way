@@ -512,7 +512,7 @@ Waypoint
 {
 origin = '836 -125 -15'
 id = 39
-special = way_1
+special = way_race
 target = 41
 target2 = 40
 target3 = 12
