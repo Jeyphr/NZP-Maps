@@ -4,8 +4,8 @@ Based on code modifications by Sean 'Zoner' Cavanaugh and Vluzacn
 Based on Valve's version, modified with permission.
 Submit detailed bug reports to (github.com/seedee/SDHLT/issues)
 -----  BEGIN  sdHLCSG -----
-Command line: "C:\Program Files\J.A.C.K\CompilationTools\sdHLCSG_x64.exe" C:\Users\theje\NZP\nzp\maps\weaponTierList -wadinclude jtext -wadinclude jwoc -wadinclude jdev -wadinclude jstuf 
-Arguments: C:\Users\theje\NZP\nzp\maps\weaponTierList -wadinclude jtext -wadinclude jwoc -wadinclude jdev -wadinclude jstuf -low 
+Command line: "C:\Program Files\J.A.C.K\CompilationTools\sdHLCSG_x64.exe" C:\Users\theje\NZP\nzp\maps\weaponTierList -wadinclude jtext -wadinclude jwoc -wadinclude jdev -wadinclude jstuf -wadinclude jdepr 
+Arguments: C:\Users\theje\NZP\nzp\maps\weaponTierList -wadinclude jtext -wadinclude jwoc -wadinclude jdev -wadinclude jstuf -wadinclude jdepr -low 
 Entering C:\Users\theje\NZP\nzp\maps\weaponTierList.map
 
 Current sdHLCSG Settings
@@ -49,27 +49,28 @@ jtext
 jwoc
 jdev
 jstuf
+jdepr
 ---------------
 
 
 CreateBrush:
- (0.01 seconds)
+ (0.02 seconds)
 CSGBrush:
- (0.08 seconds)
+ (0.06 seconds)
 
 No wad files used by the map
 Additional wad files included
 -----------------------------
-[JDEV.wad] 5/45 textures (38.46%)
- - /Users/theje/Assets/Jeyphr-s-Wads/Jeyphr's WADS/JDEV.wad
-[JTEXT.wad] 3/211 textures (23.08%)
- - /Users/theje/Assets/Jeyphr-s-Wads/Jeyphr's WADS/JTEXT.wad
-[JWOC.wad] 3/248 textures (23.08%)
- - /Users/theje/Assets/Jeyphr-s-Wads/Jeyphr's WADS/JWOC.wad
 [sdhlt.wad] 1/27 texture (7.69%)
  - /Users/theje/Assets/Jeyphr-s-Wads/SeeDee's Half Life Tools/sdhlt.wad
-[JSTUF.wad] 1/6 texture (7.69%)
- - /Users/theje/Assets/Jeyphr-s-Wads/Jeyphr's WADS/JSTUF.wad
+[JDEV.wad] 5/45 textures (38.46%)
+ - /Users/theje/Assets/Jeyphr-s-Wads/Jeyphr's WADS/Half Life and NZP/JDEV.wad
+[JSTUF.wad] 1/24 texture (7.69%)
+ - /Users/theje/Assets/Jeyphr-s-Wads/Jeyphr's WADS/Half Life and NZP/JSTUF.wad
+[JTEXT.wad] 3/229 textures (23.08%)
+ - /Users/theje/Assets/Jeyphr-s-Wads/Jeyphr's WADS/Half Life and NZP/JTEXT.wad
+[JWOC.wad] 3/265 textures (23.08%)
+ - /Users/theje/Assets/Jeyphr-s-Wads/Jeyphr's WADS/Half Life and NZP/JWOC.wad
 -----------------------------
 
 Texture usage: 0.19/32.00 MB)
@@ -98,7 +99,7 @@ entdata          [variable]       6314/2097152  ( 0.3%)
 === Total BSP file data space used: 230486 bytes ===
 
 No wad files required to run the map
-0.14 seconds elapsed
+0.12 seconds elapsed
 
 -----   END   sdHLCSG -----
 
@@ -141,7 +142,7 @@ remove hull 2       [     off ] [     off ]
 SolidBSP [hull 0] 25 (0.00 seconds)
 BSP generation successful, writing portal file 'C:\Users\theje\NZP\nzp\maps\weaponTierList.prt'
 SolidBSP [hull 1] 29 (0.00 seconds)
-SolidBSP [hull 2] 29 (0.00 seconds)
+SolidBSP [hull 2] 29 (0.02 seconds)
 SolidBSP [hull 3] 29 (0.00 seconds)
 Reduced 342 clipnodes to 342
 Reduced 204 texinfos to 169
@@ -174,7 +175,7 @@ entdata          [variable]       6314/2097152  ( 0.3%)
 === Total BSP file data space used: 246644 bytes ===
 
 No wad files required to run the map
-0.10 seconds elapsed
+0.08 seconds elapsed
 
 -----   END   sdHLBSP -----
 
@@ -245,7 +246,7 @@ entdata          [variable]       6314/2097152  ( 0.3%)
 === Total BSP file data space used: 246645 bytes ===
 
 No wad files required to run the map
-0.01 seconds elapsed
+0.02 seconds elapsed
 
 -----   END   sdHLVIS -----
 
@@ -344,37 +345,37 @@ Create Patches : 1680 base patches
 FindFacePositions:
  (0.03 seconds)
 BuildFacelights:
- (0.07 seconds)
+ (0.06 seconds)
 BuildVisLeafs:
- (0.12 seconds)
+ (0.11 seconds)
 visibility matrix   :   0.7 megs
 MakeScales:
- (0.05 seconds)
+ (0.06 seconds)
 Transfer Lists :     2106522 :     2.11M transfers
        Indices :       12092 :    11.81k bytes
           Data :     4218084 :     4.02M bytes
 Bounce 1 GatherLight:
  (0.01 seconds)
 Bounce 2 GatherLight:
- (0.01 seconds)
+ (0.00 seconds)
 Bounce 3 GatherLight:
- (0.01 seconds)
+ (0.02 seconds)
 Bounce 4 GatherLight:
- (0.01 seconds)
+ (0.00 seconds)
 Bounce 5 GatherLight:
- (0.01 seconds)
+ (0.02 seconds)
 Bounce 6 GatherLight:
  (0.01 seconds)
 Bounce 7 GatherLight:
- (0.01 seconds)
+ (0.00 seconds)
 Bounce 8 GatherLight:
  (0.01 seconds)
 CreateTriangulations:
  (0.01 seconds)
 AddPatchLights:
- (0.05 seconds)
+ (0.04 seconds)
 FinalLightFace:
- (0.00 seconds)
+ (0.01 seconds)
 
 Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
 ------------  ---------------  ---------------  --------
@@ -400,7 +401,7 @@ entdata          [variable]       6314/2097152  ( 0.3%)
 === Total BSP file data space used: 310908 bytes ===
 
 No wad files required to run the map
-0.58 seconds elapsed
+0.52 seconds elapsed
 
 -----   END   sdHLRAD -----
 
