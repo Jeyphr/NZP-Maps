@@ -54,9 +54,9 @@ jdepr
 
 
 CreateBrush:
- (0.02 seconds)
+ (0.01 seconds)
 CSGBrush:
- (0.06 seconds)
+ (0.07 seconds)
 
 No wad files used by the map
 Additional wad files included
@@ -99,7 +99,7 @@ entdata          [variable]       6314/2097152  ( 0.3%)
 === Total BSP file data space used: 230486 bytes ===
 
 No wad files required to run the map
-0.12 seconds elapsed
+0.17 seconds elapsed
 
 -----   END   sdHLCSG -----
 
@@ -142,7 +142,7 @@ remove hull 2       [     off ] [     off ]
 SolidBSP [hull 0] 25 (0.00 seconds)
 BSP generation successful, writing portal file 'C:\Users\theje\NZP\nzp\maps\weaponTierList.prt'
 SolidBSP [hull 1] 29 (0.00 seconds)
-SolidBSP [hull 2] 29 (0.02 seconds)
+SolidBSP [hull 2] 29 (0.00 seconds)
 SolidBSP [hull 3] 29 (0.00 seconds)
 Reduced 342 clipnodes to 342
 Reduced 204 texinfos to 169
@@ -175,7 +175,7 @@ entdata          [variable]       6314/2097152  ( 0.3%)
 === Total BSP file data space used: 246644 bytes ===
 
 No wad files required to run the map
-0.08 seconds elapsed
+0.10 seconds elapsed
 
 -----   END   sdHLBSP -----
 
@@ -246,7 +246,7 @@ entdata          [variable]       6314/2097152  ( 0.3%)
 === Total BSP file data space used: 246645 bytes ===
 
 No wad files required to run the map
-0.02 seconds elapsed
+0.01 seconds elapsed
 
 -----   END   sdHLVIS -----
 
@@ -345,37 +345,37 @@ Create Patches : 1680 base patches
 FindFacePositions:
  (0.03 seconds)
 BuildFacelights:
- (0.06 seconds)
+ (0.07 seconds)
 BuildVisLeafs:
  (0.11 seconds)
 visibility matrix   :   0.7 megs
 MakeScales:
- (0.06 seconds)
+ (0.05 seconds)
 Transfer Lists :     2106522 :     2.11M transfers
        Indices :       12092 :    11.81k bytes
           Data :     4218084 :     4.02M bytes
 Bounce 1 GatherLight:
  (0.01 seconds)
 Bounce 2 GatherLight:
- (0.00 seconds)
+ (0.01 seconds)
 Bounce 3 GatherLight:
- (0.02 seconds)
+ (0.01 seconds)
 Bounce 4 GatherLight:
- (0.00 seconds)
+ (0.01 seconds)
 Bounce 5 GatherLight:
- (0.02 seconds)
+ (0.01 seconds)
 Bounce 6 GatherLight:
  (0.01 seconds)
 Bounce 7 GatherLight:
- (0.00 seconds)
+ (0.01 seconds)
 Bounce 8 GatherLight:
  (0.01 seconds)
 CreateTriangulations:
  (0.01 seconds)
 AddPatchLights:
- (0.04 seconds)
+ (0.05 seconds)
 FinalLightFace:
- (0.01 seconds)
+ (0.00 seconds)
 
 Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
 ------------  ---------------  ---------------  --------
@@ -401,7 +401,7 @@ entdata          [variable]       6314/2097152  ( 0.3%)
 === Total BSP file data space used: 310908 bytes ===
 
 No wad files required to run the map
-0.52 seconds elapsed
+0.53 seconds elapsed
 
 -----   END   sdHLRAD -----
 
