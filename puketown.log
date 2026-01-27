@@ -81,7 +81,7 @@ models              0/512            0/32768    ( 0.0%)
 planes           5172/32768     103440/655360   (15.8%)
 vertexes            0/65535          0/786420   ( 0.0%)
 nodes               0/32767          0/786408   ( 0.0%)
-texinfos          764/32767      30560/1310680  ( 2.3%)
+texinfos          756/32767      30240/1310680  ( 2.3%)
 faces               0/65535          0/1310700  ( 0.0%)
 * worldfaces        0/32768          0/0        ( 0.0%)
 clipnodes           0/32767          0/262136   ( 0.0%)
@@ -96,10 +96,10 @@ visdata          [variable]          0/8388608  ( 0.0%)
 entdata          [variable]      23014/2097152  ( 1.1%)
 * AllocBlock        0/64             0/0        ( 0.0%)
 92 textures referenced
-=== Total BSP file data space used: 1780450 bytes ===
+=== Total BSP file data space used: 1780130 bytes ===
 
 No wad files required to run the map
-0.65 seconds elapsed
+0.61 seconds elapsed
 
 -----   END   sdHLCSG -----
 
@@ -139,43 +139,43 @@ max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
 remove hull 2       [     off ] [     off ]
 
 
-SolidBSP [hull 0] 500...1000...1362 (0.11 seconds)
+SolidBSP [hull 0] 500...1000...1364 (0.10 seconds)
 BSP generation successful, writing portal file 'C:\Users\theje\NZP\nzp\maps\puketown.prt'
-SolidBSP [hull 1] 500...1000...1232 (0.08 seconds)
-SolidBSP [hull 2] 500...1000...1164 (0.07 seconds)
-SolidBSP [hull 3] 500...1000...1272 (0.08 seconds)
-Reduced 3609 clipnodes to 3367
-Reduced 764 texinfos to 603
+SolidBSP [hull 1] 500...1000...1231 (0.08 seconds)
+SolidBSP [hull 2] 500...1000...1166 (0.07 seconds)
+SolidBSP [hull 3] 500...1000...1268 (0.08 seconds)
+Reduced 3612 clipnodes to 3361
+Reduced 756 texinfos to 600
 Reduced 92 texdatas to 91 (1623436 bytes to 1617180)
 Reduced 5172 planes to 1452
 FixBrinks:
-Increased 3367 clipnodes to 3394.
+Increased 3361 clipnodes to 3392.
 
 Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
 ------------  ---------------  ---------------  --------
 models             32/512         2048/32768    ( 6.2%)
 planes           1452/32768      29040/655360   ( 4.4%)
-vertexes         4246/65535      50952/786420   ( 6.5%)
-nodes            1473/32767      35352/786408   ( 4.5%)
-texinfos          603/32767      24120/1310680  ( 1.8%)
-faces            2845/65535      56900/1310700  ( 4.3%)
-* worldfaces     2743/32768          0/0        ( 8.4%)
-clipnodes        3394/32767      27152/262136   (10.4%)
-leaves            742/32760      20776/917280   ( 2.3%)
-* worldleaves     547/8192           0/0        ( 6.7%)
-marksurfaces     3722/65535       7444/131070   ( 5.7%)
-surfedges       13949/512000     55796/2048000  ( 2.7%)
-edges            7569/256000     30276/1024000  ( 3.0%)
+vertexes         4254/65535      51048/786420   ( 6.5%)
+nodes            1475/32767      35400/786408   ( 4.5%)
+texinfos          600/32767      24000/1310680  ( 1.8%)
+faces            2863/65535      57260/1310700  ( 4.4%)
+* worldfaces     2761/32768          0/0        ( 8.4%)
+clipnodes        3392/32767      27136/262136   (10.4%)
+leaves            743/32760      20804/917280   ( 2.3%)
+* worldleaves     548/8192           0/0        ( 6.7%)
+marksurfaces     3732/65535       7464/131070   ( 5.7%)
+surfedges       14031/512000     56124/2048000  ( 2.7%)
+edges            7586/256000     30344/1024000  ( 3.0%)
 texdata          [variable]    1617180/33554432 ( 4.8%)
 lightdata        [variable]          0/50331648 ( 0.0%)
 visdata          [variable]          0/8388608  ( 0.0%)
 entdata          [variable]      23014/2097152  ( 1.1%)
 * AllocBlock        8/64             0/0        (12.5%)
 91 textures referenced
-=== Total BSP file data space used: 1980050 bytes ===
+=== Total BSP file data space used: 1980862 bytes ===
 
 No wad files required to run the map
-0.89 seconds elapsed
+0.88 seconds elapsed
 
 -----   END   sdHLBSP -----
 
@@ -189,8 +189,8 @@ Submit detailed bug reports to (github.com/seedee/SDHLT/issues)
 -----  BEGIN  sdHLVIS -----
 Command line: "C:\Program Files\J.A.C.K\CompilationTools\sdHLVIS_x64.exe" C:\Users\theje\NZP\nzp\maps\puketown 
 Arguments: C:\Users\theje\NZP\nzp\maps\puketown -low 
- 291 portalleafs
- 753 numportals
+ 289 portalleafs
+ 746 numportals
 
 -= Current sdHLVIS Settings =-
 Name               |  Setting  |  Default
@@ -213,39 +213,39 @@ nofixprt            [     off ] [     off ]
 BasePortalVis:
  (0.01 seconds)
 LeafThread:
- (0.18 seconds)
-average leafs visible: 147
-g_visdatasize:18011  compressed from 10767
+ (0.19 seconds)
+average leafs visible: 146
+g_visdatasize:17654  compressed from 10693
 
 Reading portal file 'C:\Users\theje\NZP\nzp\maps\puketown.prt'
-Reduced 1046 lines to 755
+Reduced 1037 lines to 748
 Optimization for J.A.C.K. map editor successful, writing portal file 'C:\Users\theje\NZP\nzp\maps\puketown.prt'
 
 Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
 ------------  ---------------  ---------------  --------
 models             32/512         2048/32768    ( 6.2%)
 planes           1452/32768      29040/655360   ( 4.4%)
-vertexes         4246/65535      50952/786420   ( 6.5%)
-nodes            1473/32767      35352/786408   ( 4.5%)
-texinfos          603/32767      24120/1310680  ( 1.8%)
-faces            2845/65535      56900/1310700  ( 4.3%)
-* worldfaces     2743/32768          0/0        ( 8.4%)
-clipnodes        3394/32767      27152/262136   (10.4%)
-leaves            742/32760      20776/917280   ( 2.3%)
-* worldleaves     547/8192           0/0        ( 6.7%)
-marksurfaces     3722/65535       7444/131070   ( 5.7%)
-surfedges       13949/512000     55796/2048000  ( 2.7%)
-edges            7569/256000     30276/1024000  ( 3.0%)
+vertexes         4254/65535      51048/786420   ( 6.5%)
+nodes            1475/32767      35400/786408   ( 4.5%)
+texinfos          600/32767      24000/1310680  ( 1.8%)
+faces            2863/65535      57260/1310700  ( 4.4%)
+* worldfaces     2761/32768          0/0        ( 8.4%)
+clipnodes        3392/32767      27136/262136   (10.4%)
+leaves            743/32760      20804/917280   ( 2.3%)
+* worldleaves     548/8192           0/0        ( 6.7%)
+marksurfaces     3732/65535       7464/131070   ( 5.7%)
+surfedges       14031/512000     56124/2048000  ( 2.7%)
+edges            7586/256000     30344/1024000  ( 3.0%)
 texdata          [variable]    1617180/33554432 ( 4.8%)
 lightdata        [variable]          0/50331648 ( 0.0%)
-visdata          [variable]      18011/8388608  ( 0.2%)
+visdata          [variable]      17654/8388608  ( 0.2%)
 entdata          [variable]      23014/2097152  ( 1.1%)
 * AllocBlock        8/64             0/0        (12.5%)
 91 textures referenced
-=== Total BSP file data space used: 1998061 bytes ===
+=== Total BSP file data space used: 1998516 bytes ===
 
 No wad files required to run the map
-0.20 seconds elapsed
+0.22 seconds elapsed
 
 -----   END   sdHLVIS -----
 
@@ -334,37 +334,37 @@ Reading texlights from 'C:\Program Files\J.A.C.K\CompilationTools\lights.rad'
 0 texlights parsed (C:\Program Files\J.A.C.K\CompilationTools\lights.rad)
 0 opaque models
 0 opaque faces
-2845 faces
-Create Patches : 8384 base patches
-124535 square feet [17933130.00 square inches]
+2863 faces
+Create Patches : 8411 base patches
+124502 square feet [17928394.00 square inches]
 16 direct lights and 16386 fast direct lights
 4 light styles
 0 opaque studio models
 
 FindFacePositions:
- (0.20 seconds)
+ (0.23 seconds)
 BuildFacelights:
- (2.63 seconds)
+ (2.73 seconds)
 BuildVisLeafs:
- (0.59 seconds)
+ (0.62 seconds)
 visibility matrix   :   1.6 megs
 MakeScales:
- (0.32 seconds)
-Transfer Lists :     2714696 :     2.71M transfers
-       Indices :     2382028 :     2.27M bytes
-          Data :     5453989 :     5.20M bytes
+ (0.35 seconds)
+Transfer Lists :     2729974 :     2.73M transfers
+       Indices :     2392840 :     2.28M bytes
+          Data :     5484629 :     5.23M bytes
 Bounce 1 GatherLight:
  (0.01 seconds)
 Bounce 2 GatherLight:
- (0.01 seconds)
+ (0.02 seconds)
 Bounce 3 GatherLight:
  (0.02 seconds)
 Bounce 4 GatherLight:
- (0.01 seconds)
+ (0.02 seconds)
 Bounce 5 GatherLight:
- (0.01 seconds)
+ (0.02 seconds)
 Bounce 6 GatherLight:
- (0.01 seconds)
+ (0.02 seconds)
 Bounce 7 GatherLight:
  (0.02 seconds)
 Bounce 8 GatherLight:
@@ -372,7 +372,7 @@ Bounce 8 GatherLight:
 CreateTriangulations:
  (0.02 seconds)
 AddPatchLights:
- (0.38 seconds)
+ (0.42 seconds)
 FinalLightFace:
  (0.01 seconds)
 
@@ -380,27 +380,27 @@ Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
 ------------  ---------------  ---------------  --------
 models             32/512         2048/32768    ( 6.2%)
 planes           1452/32768      29040/655360   ( 4.4%)
-vertexes         4246/65535      50952/786420   ( 6.5%)
-nodes            1473/32767      35352/786408   ( 4.5%)
-texinfos          603/32767      24120/1310680  ( 1.8%)
-faces            2845/65535      56900/1310700  ( 4.3%)
-* worldfaces     2743/32768          0/0        ( 8.4%)
-clipnodes        3394/32767      27152/262136   (10.4%)
-leaves            742/32760      20776/917280   ( 2.3%)
-* worldleaves     547/8192           0/0        ( 6.7%)
-marksurfaces     3722/65535       7444/131070   ( 5.7%)
-surfedges       13949/512000     55796/2048000  ( 2.7%)
-edges            7569/256000     30276/1024000  ( 3.0%)
+vertexes         4254/65535      51048/786420   ( 6.5%)
+nodes            1475/32767      35400/786408   ( 4.5%)
+texinfos          600/32767      24000/1310680  ( 1.8%)
+faces            2863/65535      57260/1310700  ( 4.4%)
+* worldfaces     2761/32768          0/0        ( 8.4%)
+clipnodes        3392/32767      27136/262136   (10.4%)
+leaves            743/32760      20804/917280   ( 2.3%)
+* worldleaves     548/8192           0/0        ( 6.7%)
+marksurfaces     3732/65535       7464/131070   ( 5.7%)
+surfedges       14031/512000     56124/2048000  ( 2.7%)
+edges            7586/256000     30344/1024000  ( 3.0%)
 texdata          [variable]    1617180/33554432 ( 4.8%)
-lightdata        [variable]     482115/50331648 ( 1.0%)
-visdata          [variable]      18011/8388608  ( 0.2%)
+lightdata        [variable]     480543/50331648 ( 1.0%)
+visdata          [variable]      17654/8388608  ( 0.2%)
 entdata          [variable]      23014/2097152  ( 1.1%)
 * AllocBlock        8/64             0/0        (12.5%)
 91 textures referenced
-=== Total BSP file data space used: 2480176 bytes ===
+=== Total BSP file data space used: 2479059 bytes ===
 
 No wad files required to run the map
-4.60 seconds elapsed
+4.83 seconds elapsed
 
 -----   END   sdHLRAD -----
 
