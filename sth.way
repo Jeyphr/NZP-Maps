@@ -334,6 +334,51 @@ origin = '-2067 289 144'
 id = 22
 special = 
 target = 21
+target2 = 25
+target3 = 23
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '-2198 347 144'
+id = 23
+special = 
+target = 22
+target2 = 24
+target3 = 
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '-2266 470 144'
+id = 24
+special = 
+target = 23
+target2 = 
+target3 = 
+target4 = 
+target5 = 
+target6 = 
+target7 = 
+target8 = 
+}
+
+Waypoint
+{
+origin = '-2066 95 144'
+id = 25
+special = 
+target = 22
 target2 = 
 target3 = 
 target4 = 
