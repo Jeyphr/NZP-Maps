@@ -10703,7 +10703,7 @@
 {
 "classname" "func_door_nzp"
 "angles" "90 0 0"
-"cost" "4000"
+"cost" "8000"
 "health" "0"
 "dmg" "0"
 "distance" "90"
@@ -11374,7 +11374,7 @@
 {
 "classname" "func_door_nzp"
 "angles" "90 0 0"
-"cost" "8000"
+"cost" "4000"
 "health" "0"
 "dmg" "0"
 "distance" "90"
